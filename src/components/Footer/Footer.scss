@@ -1,0 +1,121 @@
+.footer {
+//   display: flex;
+  
+//   align-items: center;
+//   justify-content: center;
+ 
+  &_container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+    flex-direction: column;
+    align-items: center;
+  }
+  &_section {
+    width: 70%;
+    // background-color: red;
+    display: flex;
+    justify-content: space-between;
+  }
+  &_left {
+    width: 20%;
+    // background-color: green;
+    h3{
+        color: white;
+        padding: 0.5vw;
+    }
+    li{
+        list-style-type: none;
+        padding: 0.5vw;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+      }
+  }
+  &_center {
+    width: 20%;
+    // background-color: green;
+    display: flex;
+    flex-direction: column;
+
+    h3{
+        text-align: center;
+        color: white;
+    }
+  }
+  &_centerlinks{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        li a{
+            padding: 0.7vw 1vw;
+            background-color: whitesmoke;
+            border-radius: 5vw;
+            color: black;
+        }
+    }
+  }
+
+&_right {
+    width: 20%;
+    // background-color: green;
+    display: flex;
+    flex-direction: column;
+    h3{
+        color: white;
+    }
+  }
+&_content {
+    display: flex;
+    align-items: center;
+    p{
+        color: white;
+    }
+    a{
+        color: white;
+    }
+  }
+  &_content1 {
+    display: flex;
+    align-items: first baseline;
+    a{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+  }
+  &_bottom {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 1vw;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: 400;
+    color: white;
+    &_logo {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      h3{
+        text-align: center;
+      }
+    }
+    &_icons {
+        width: 70%;
+      display: flex;
+      justify-content: space-between;
+      img {
+        width: 12vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+.home{
+    &_banner{
+    background-image: url(../../assets/images/banner.jpg);
+    background-repeat: norepeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    }
+    &_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    }
+    &_section{
+        margin-top: 3vw;
+        width: 75%;
+        // background-color: aqua;
+        height: 65vh;
+        display: flex;
+        gap: 4vw;
+        }
+    &_leftcard{
+        background-color: #fff;
+        padding: 1.4vw;
+        width: 28%;
+        h2{
+        font-size: 2.2vw;
+        letter-spacing: 0.2vw;
+        }
+        p{
+        font-size: 0.85vw;
+        font-weight: 500;
+
+        }
+        button{
+        background-color: black;
+        color: white;
+        padding: 1vw 3vw;
+        border-radius: 0.5vw;
+        font-size: 1vw;
+        font-weight: 700;
+        }
+        h6{
+        font-size: 0.9vw;
+        color: black;
+       border-bottom: 1px solid black;
+       letter-spacing: 0.01vw;
+       max-width: fit-content;
+       font-weight: 600
+       ;
+        }
+        h5{
+            font-size: 1vw;
+            font-weight: 700;
+        }
+        &_store{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        img{
+            width: 7vw;
+            cursor: pointer;
+        }
+    }
+    }
+    &_rightcard{
+        background-color: #fff;
+        padding: 1.5vw;
+        width: 28%;
+        h2{
+        font-size: 2.2vw;
+        letter-spacing: 0.2vw;
+        }
+        p{
+        font-size: 0.85vw;
+        font-weight: 500;
+
+        }
+        button{
+        background-color: black;
+        color: white;
+        padding: 1vw 3vw;
+        border-radius: 0.5vw;
+        font-size: 1vw;
+        font-weight: 700;
+        }
+        h6{
+        font-size: 0.9vw;
+        color: black;
+        border-bottom: 1px solid black;
+        max-width: fit-content;
+        letter-spacing: 0.01vw;
+        font-weight: 600;
+        }
+        h5{
+            font-size: 1vw;
+            font-weight: 700;
+        }
+        &_store{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        img{
+            width: 7vw;
+            cursor: pointer;
+        }
+    }
+    }
+    &_howwork{
+        display: flex;
+        justify-content: center;
+        &_container{
+            width: 80%;
+            // background-color: red;
+            text-align: center;
+            padding: 6vw 0 4vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        &_heading{
+            h1{
+                font-size: 2.5vw;
+                font-weight: 600;
+               
+            }
+        &_line{
+                border-bottom: 5px solid black;
+                width: 5vw;
+                
+                
+            }
+        }
+        &_container2{
+            display: flex;
+            justify-content: center;
+        }
+        &_section{
+            width: 80%;
+            // background-color: aquamarine;
+            display: flex;
+            justify-content: space-between;
+        }
+        &_card{
+            width: 25%;
+            // background-color: bisque;
+            display: flex;
+            justify-content: center;
+            flex-direction:column ;
+            align-items: center;
+            
+            img{
+                
+                background-color: grey;
+                border-radius: 50%;
+                width: 6vw;
+               
+            }
+            h1{
+                font-size: 1.5vw;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-size: 1.1vw;
+                font-weight: 500;
+                line-height: 1.5vw;
+                text-align: center;
+            }
+            
+        }
+
+    }
+
+
+
+    
+  
+
+}
